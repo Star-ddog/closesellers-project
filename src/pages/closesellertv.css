@@ -1,0 +1,367 @@
+
+/* START AFTER NAVBAR................ */
+
+.after-nav-kok{
+    background-image: url("../image/home/navBackground.png")  ;
+   width: 100%;
+   height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    padding: 20px 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.after-nav-kok h2{
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+}
+.after-nav-kok p{
+    font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+margin: 50px 0;
+}
+/* END AFTER NAVBAR................ */
+
+/* START SOCIAL ACTIVITIES................. */
+.social-act  .h-1 {
+    background-color: #FFFFFF;
+    height: 200px;
+   
+}
+.social-act  .h-1 h1{
+font-weight: 700;
+font-size: 60px;
+line-height: 80px;
+color: #000000;
+padding: 50px;
+}
+.activities{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.activity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   margin: 20px auto;
+    gap: 50px;
+    padding:70px 50px;
+    height: 100%;
+}
+.activity-1{
+    background: #F6F6F6;
+    width: 100%;
+
+}
+.detial-1{
+    flex: 1;
+}
+.detial-img{
+    flex: 1;
+}
+.detial-img img{
+    width: 550px;
+    height: 390px;
+}
+.detial-1 span{
+font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+color: #000000;
+}
+.detial-1 p{
+    font-weight: 300;
+font-size: 16px;
+line-height: 40px;
+color: #333333;
+}
+.detial-1 a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 50px;
+    color: #701D9D;
+}
+/* END SOCIAL ACTIVITIES................. */
+
+/* START MOVIE COMMUNITY...................... */
+.movie-community{
+    background: #F6F6F6;
+    width: 100%;
+}
+.movie-comm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+    height: 460px;
+    overflow-x: hidden;
+    gap: 30px;
+}
+.movie-1{
+    flex: 1;
+    justify-content: center;
+  
+}
+.movie-1 span{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 90px;
+    color: #000000;
+}
+.movie-1 p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    color: #333333;
+}
+.movie-img{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+.img-1 img{
+    width: 100px;
+    height: 300px;
+}
+.img-2 img{
+    width: 470px;
+    height: 300px;
+}
+.img-3 img{
+    width: 100px;
+    height: 300px;
+}
+/* END MOVIE COMMUNITY...................... */
+
+/* TRAINING EVENTS........................... */
+.training-event{
+    padding: 20px 50px;
+   
+}
+.training-sec{
+    background: #F6F6F6;
+    padding: 50px 10px;
+}
+.training-event h2{
+font-weight: 600;
+font-size: 36px;
+line-height: 70px;
+color: #000000;
+}
+.training-event p{
+font-weight: 100;
+font-size: 18px;
+line-height: 35px;
+color: #333333;
+padding-right: 150px;
+margin-bottom: 50px;
+}
+.traing-flex{
+    display: flex;
+    gap: 20px;
+}
+.pic-1{
+    flex: 1;
+}
+.pic-2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pic-1 img{
+    width: 550px;
+    height: 420px;
+    border-radius: 10px;
+}
+.pic-2 img{
+    width: 550px;
+    height: 200px;
+    border-radius: 10px;
+}
+/* TRAINING EVENTS........................... */
+.upcoming-event{
+    padding: 20px 50px;
+    width: 100%;
+}
+.upcoming{
+width: 100%;
+height: 500px;
+background: #FFFFFF;
+border-radius: 20px;
+padding: 30px;
+}
+.event-area{
+width: 100%;
+height: 360px;
+background: black;
+border-radius: 20px;
+}
+.event-area img{
+    width: 100%;
+height: 360px;
+border-radius: 20px;
+}
+.upcoming h3{
+font-weight: 600;
+font-size: 30px;
+line-height: 65px;
+color: #000000;
+}
+.upcoming a{
+    text-decoration: none;
+    color: #701D9D;
+}
+@media only screen and (max-width: 450px){
+
+    .after-nav-kok{
+        background-image: url("../image/home/navBackground.png")  ;
+       width: 100%;
+       height: 100vh;
+        background-position: center center;
+        background-size: cover;
+        padding: 20px 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .after-nav-kok h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .after-nav-kok p{
+        font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 30px 0;
+    }
+
+
+    
+    .social-act  .h-1 {
+        background-color: #FFFFFF;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .social-act  .h-1 h1{
+   
+    font-size: 40px;
+    line-height: 40px;
+    padding: 30px;
+    }
+    .activity{
+        flex-direction: column;
+        padding:10px 20px;
+        
+    }
+    .activity-1{
+        background-color: white;
+    }
+    .activity-2{
+        flex-direction: column-reverse;
+    }
+    .activities{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .detial-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .movie-comm{
+        width: 100%;
+        flex-direction: column;
+        padding: 20px 20px;
+        height: 100%;
+        gap: 30px;
+    }
+    .movie-1{
+        flex: 1;
+    }
+    .movie-img{
+        flex-direction: column;
+        flex: 1;  
+        gap: 20px;
+    }
+    .img-1 img{
+    height: 200px;
+    width: 100%;
+
+
+    }
+    .img-2 img{
+        height: 250px;
+        width: 100%;
+    }
+    .img-3 img{
+        height: 250px;
+        width: 100%;
+    }
+    .traing-flex{
+        flex-direction: column;
+    }
+    .traing-flex img{
+        width: 100%;
+        height: 100%;
+    }
+    .training-event{
+        padding: 20px 20px; 
+    }
+    .training-event p{
+        padding-right: 0;
+      
+        }
+        .upcoming-event{
+            padding: 20px 10px;
+           
+        }
+        .upcoming{
+        padding: 20px;
+        }
+}
+@media screen and (min-width: 768px) and (max-width: 1100px){
+    .traing-flex img{
+        width: 100%;
+    }
+    .after-nav-kok h2{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+        }
+        .after-nav-kok p{
+            font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 30px 0;
+        }
+        .detial-img img{
+            width: 100%;
+        }
+        .movie-img img{
+            width: 100%;
+        }
+       
+}
