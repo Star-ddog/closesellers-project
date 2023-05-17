@@ -1,0 +1,27 @@
+/* aimations */
+.hue-shift{
+    animation: hue-shift 2s infinite alternate;
+}
+
+@keyframes hue-shift{
+    from{
+        filter: hue-rotate(0);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+
+/* moving item */
+.move-up{
+    animation: move-up 2s infinite alternate;
+}
+
+@keyframes move-up{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(2rem);
+    }
+}

@@ -1,6 +1,12 @@
 
 import './upbar.css';
+import './animation.css';
 import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { useState } from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 import speaker from '../image/home/speaker.png';
 import vision from '../image/home/vision.png';
@@ -19,16 +25,37 @@ import audio from '../image/home/icons/audio.png';
 import degital from '../image/home/degital.png';
 import video from '../image/home/video.png';
 import faq from '../image/home/faq.png';
+
 import Footer from '../components/Footer';
+import { Collapse } from 'antd';
+const { Panel } = Collapse;
+
 
 
 
 
 
 const Upbar = () => {
-
  
-    
+  useEffect(function () {
+    Aos.init({ duration: 2000,
+    mirror:'false',
+ });
+  }, []);
+
+  const mystyle = {
+    backgroundColor: "white",
+    fontWeight: 500,
+    fontSize: "18px"
+  };
+  const mytext = {
+    backgroundColor: "white",
+    fontWeight: 500,
+    fontSize: "15px",
+    color: "#701D9D",
+    padding: "20px"
+  };
+
   return (
     <div className="home-page">
 
@@ -42,13 +69,13 @@ const Upbar = () => {
 <div className="hero-h2">
 <div className="hero-center">
     
-<h2>Looking to boost your brand's reach and drive sales?</h2>
+<h2 data-aos="fade-up">Let assist you in boosting your sales and expanding your reach.</h2>
 
-<p>Look no further than our top-rated advertising agency! With a team of expert
+<p data-aos="fade-down">Look no further than our top-rated advertising agency! With a team of expert
 creatives and data-driven strategists, we'll help you take your marketing to the next level. 
 Let's make your brand stand out and get noticed today!</p>
 
- <Link  to={'/contact'} ><a href="">Contact us today</a> </Link> 
+ <Link  to={'/contact'} ><a href="" data-aos="fade-down-right">Contact us today</a> </Link> 
 </div>
 </div>
     </div>
@@ -63,17 +90,17 @@ Let's make your brand stand out and get noticed today!</p>
   <div className="container">
     <div className="vision">
 
-      <div className="text-vision">
+      <div className="text-vision" data-aos="flip-left">
         <span>About Us</span>
         <h3>The key to growth lies in utilizing advertising effectively</h3>
-        <p>Welcome to closeseller, advertising your products or services may seem like it’s all about creating amazing ads to catch the audience, but there’s a lot more you may choose to consider before creating adverts. Here are the top skills we use to create a targetted audience to reach your business both online and offline.
+        <p >Welcome to closeseller, advertising your products or services may seem like it’s all about creating amazing ads to catch the audience, but there’s a lot more you may choose to consider before creating adverts. Here are the top skills we use to create a targetted audience to reach your business both online and offline.
 
 We can create successful ads and turn your advertising investment into revenue, simply Reach new customers and grow your business.</p>  
 
       </div>
 
-      <div className="img-vision">
-        <img src={speaker} alt="" />
+      <div className="img-vision move-up" >
+        <img src={speaker} alt="" data-aos="zoom-in"/>
       </div>
     </div>
   </div>
@@ -87,19 +114,19 @@ We can create successful ads and turn your advertising investment into revenue, 
     
     <div className="container">
       <div className="advert">
-        <h1 className="advert-title">Available Ads at Closeseller</h1>
+        <h1 className="advert-title"  data-aos="slide-left">Available Ads at Closeseller</h1>
 
         <div className="advert-content">
 
           <div className="ad-detials">
-            <img src={degital} alt="" />
+            <img src={degital} alt="" data-aos="zoom-in-up" />
             <span className="detail-tit">Digital Dispaly Advertising</span>
             <p>Digital display advertising is online graphic advertising through 
               banners, text, images, video, and audio. The main purpose of digital 
               display advertising is to post company ads on third-party websites.</p>
           </div>
           <div className="ad-detials">
-            <img src={video} alt="" />
+            <img src={video} alt="" data-aos="zoom-in-left"/>
             <span className="detail-tit">Video Advertising</span>
 
             <p>Video advertising encompasses online display 
@@ -108,7 +135,7 @@ We can create successful ads and turn your advertising investment into revenue, 
                that occurs before, during and/or after a video stream on the internet.</p>
           </div>
           <div className="ad-detials">
-            <img src="" alt="" />
+            <img src="" alt="" data-aos="zoom-out-up"/>
             <span className="detail-tit">Animated Advertisement</span>
             <p>What Is an Animated Ad? Simply put, animated ads are short commercial cartoon 
               videos meant to promote a company's products or services.</p>
@@ -131,18 +158,20 @@ We can create successful ads and turn your advertising investment into revenue, 
     <div className="vision">
 
     <div className="img-about">
-        <img src={vision} alt="" />
+        <img src={vision} alt="" data-aos="zoom-out-down"/>
       </div>
 
       <div className="text-vision">
-        <span>Our vision</span>
+        <span data-aos="zoom-in">Our vision</span>
         <h3>A branding and publicity management company</h3>
-        <p>We aim to create possibilities by creating promotional ads for businesses across all social media platforms.
+        <p data-aos="fade">We aim to create possibilities by creating promotional ads for businesses across all social media platforms.
 
 At Closeseller, we see beyond the limits, as we have professionals willing to help our customers expand their customer base on social media platforms.</p>
 
     
-      <a href="">Learn more <img src={arrow} alt="" className='arrow' /></a>
+    <div className="learn-more">
+    <a href="">Learn more <img src={arrow} alt="" className='arrow' /></a>
+    </div>
   
 
       </div>
@@ -158,81 +187,74 @@ At Closeseller, we see beyond the limits, as we have professionals willing to he
      {/* START SERVICE AREA.............. */}
 
     
-    <section className="home-service">
-        <div className="container">
-          <div className="service">
-            <h1>Our Services</h1>
+      {/* AD BOXESS................ */}
+      <section className="ad-boxxes">
+                <div className="ad-boxx">
+                    <div className="boxx"  data-aos="zoom-in-up">
+                        <div className="circle orange move-up hue-shift" >
+                          <p>how</p>
+                        </div>
+                        <div className='margin-topp'>
+                        <span>COMMUNICATION</span>
+                        <p>Our advertising is about being able to communicate thoughts, feelings and emotions to consumers through various mediums, whether that be a television commercial, a print ad in a magazine or a website banner ad.</p>
+                        </div>
+                    </div>
+                    <div className="boxx"  data-aos="zoom-in-up">
+                    <div className="circle ">
+                          <p>how</p>
+                        </div>
+                        <div className='margin-topp'>
+                        <span>CREATIVITY</span>
+                        <p>Combining ways to execute an adverts to reach it's right audience is a primary footsteps we take to creating a potentials that yields results. </p>
+                        </div>
+                    </div>
+                    <div className="boxx" data-aos="zoom-in-up">
+                    <div className="circle">
+                          <p>how</p>
+                        </div>
+                        
+                        <div className='margin-topp'>
+                        <span>ANALYTICS</span>
+                        <p>What does it mean is if consumers are responding to a particular ad? 
+How can that ad be made more effective? What does it mean if it isn’t effective? These are all key questions will help us understand your desired ads.</p> 
+                        </div>
+                    </div>
+                </div>
+                <div className="ad-boxx">
+                <div className="boxx"data-aos="zoom-in" data-aos-duration="3000">
+                <div className="circle">
+                          <p>how</p>
+                        </div>
+                        <div className='margin-topp'>
+                       <span>SOCIAL TRENDS</span>
+                        <p>Since advertising relies heavily on the ability to capitalize on trends, it’s important  create ads base on top of things that are trending in the industry.</p>
+                       </div>
+                    </div>
 
-            <div className="first-box">
+                    <div className="boxx" data-aos="zoom-in" data-aos-duration="3000">
+                    <div className="circle">
+                          <p>how</p>
+                        </div>
+                        <div className='margin-topp'>
+                        <span>PROBLEM SOLVING</span>
+                        <p>Advertising is all about solving two majors problems: First, what are you to convey to your audience, and how does that support or conflict with your audience’s desires? Second, how can you pivot your ideas depending on how your particular campaign is going?</p>
+                    </div>
+                        </div>
 
-              <div className="service-box box-1">
+                    <div className="boxx" data-aos="zoom-in" data-aos-duration="3000">
+                    <div className="circle orange move-up">
+                          <p>how</p>
+                        </div>
+                        <div className='margin-topp'>
+                        <span>PERSONALITY</span>
+                        <p>CloseSeller understands that every business is unique and requires tailored solutions to achieve its goals. That's why they offer personalized strategies and campaigns that are tailored to each client's specific needs and objectives.</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </section>
+            {/* END AD BOXESS................ */}
 
-                <img src={advert} alt="" />
-                <h2>Communication Skill</h2>
-                <p>Advertising is about being able to communicate thoughts, feelings and emotions to consumers through various mediums, whether that be a television commercial, a print ad in a magazine or a website banner ad.
-                              <br />
-                              <br />
-In addition, you’ll also have to be able to present your thoughts and findings to peers, professors and potentially even clients as it plays a crucial role to showcasing your brands and services</p>
-
-                  <a href="">Learn more</a>
-              </div>
-
-              <div className="service-box box-2">
-
-                <img src={sellertv} alt="" />
-                <h2>Creativity</h2>
-                <p>
-                Combining ways to execute an adverts to reach it's right audience is a primary footsteps to we take to creating a potentials that yields results. 
-                    <br />
-                    <br />
-Because advertising is a mix of opinions and data, we are sure that you recieve positive feedback from your prospectus 
-clients.
-                  </p>
-
-                  <a href="">Learn more</a>
-              </div>
-
-            
-
-            </div>
-
-            <div className="first-box second-box">
-
-              <div className="service-box box-1">
-
-                <img src={analysis} alt="" />
-                <h2>Analytical Skills</h2>
-                <p>
-                What does it mean if consumers are responding to a particular ad? How can that ad be made more effective? What does it mean if it isn’t effective? 
-                                <br />
-                                <br />
-These are all key questions will help us understand your desired ads.
-
-                </p>
-
-                  <a href="">Learn more</a>
-              </div>
-
-              <div className="service-box box-2">
-
-                <img src={social} alt="" />
-                <h2>Social trends</h2>
-                <p>
-                Since advertising relies heavily on the ability to capitalize on trends, it’s important  create ads base on top of things that are trending in the industry. 
-                          <br />
-                          <br />
-In addition to being interested in the types of ad campaigns and news stories that are most engaging.
-                  </p>
-
-                  <a href="">Learn more</a>
-              </div>
-
-            
-
-            </div>
-          </div>
-        </div>
-     </section>
 
         {/* END SERVIVE AREA.......... */}
 
@@ -243,22 +265,22 @@ In addition to being interested in the types of ad campaigns and news stories th
 
         <div className="container">
           <div className="contact">
-          <span className="sponsor-write">We create sponsored posts on social <br /> media platforms like:</span>
+          <span className="sponsor-write" data-aos="fade-down">We create sponsored posts on social <br /> media platforms like:</span>
 
           <div className="soc-media">
 
           <div className="contact-link">
             
-            <div className="social-flex face-book">
+            <div className="social-flex face-book" data-aos="fade-up">
               <a href=""><img src={fb} alt="" />Facebook</a>
             </div>
-            <div className="social-flex instagram">
+            <div className="social-flex instagram" data-aos="fade-down">
               <a href=""><img src={ig} alt="" />Instagram</a>
             </div>
-            <div className="social-flex linkend">
+            <div className="social-flex linkend" data-aos="zoom-in">
               <a href=""><img src={linkend} alt="" />Linkedln</a>
             </div>
-            <div className="social-flex youtube">
+            <div className="social-flex youtube" data-aos="flip-up">
               <a href=""><img src={youtube} alt="" />Youtube</a>
             </div>
           </div>
@@ -267,13 +289,13 @@ In addition to being interested in the types of ad campaigns and news stories th
           <div className="contact-link colo">
             
            <div className="h-2">
-           <div className="social-flex face-book">
+           <div className="social-flex face-book" data-aos="flip-left">
               <a href=""><img src={tw} alt="" />Twitter</a>
             </div>
-            <div className="social-flex instagram">
+            <div className="social-flex instagram" data-aos="slide-right">
               <a href=""><img src={google} alt="" />Google Adsence</a>
             </div>
-            <div className="social-flex linkend">
+            <div className="social-flex linkend" data-aos="slide-left">
               <a href=""><img src={audio} alt="" />Audiomack</a>
             </div>
            </div>
@@ -281,7 +303,7 @@ In addition to being interested in the types of ad campaigns and news stories th
           </div>
 
           </div>
-
+<br />
         <a href="" className='cont-button'>Contact us today</a>
 
           </div>
@@ -295,13 +317,13 @@ In addition to being interested in the types of ad campaigns and news stories th
 
       {/* START EMAIL AREA........................ */}
 
-      <section className="mail-section">
+      <section className="mail-sectionss">
     <div className="container">
-      <div className="mail">
-        <span>
+      <div className="mailss" >
+        <span data-aos="flip-up" className='mail-span'>
         Don't wait another day to reach your marketing goals. Contact us now and let's make it happen!
         </span>
-        <a href="">
+        <a href="" data-aos="slide-right">
         Send us an email today
         </a>
       </div>
@@ -316,30 +338,25 @@ In addition to being interested in the types of ad campaigns and news stories th
     <section className="faq-section">
       <div className="container">
         <div className="faq">
-          <h3>FAQ</h3>
+          <h3 data-aos="flip-up">FAQ</h3>
           
-          <div className="questioning">
-            <div className="questions">
-              <span>Can you create adverts on YouTube?</span>
-              <img src={faq} alt="" />
-            </div>
-            <div className="questions">
-              <span>Can you create adverts on YouTube?</span>
-              <img src={faq} alt="" />
-            </div>
-            <div className="questions">
-              <span>Can you create adverts on YouTube?</span>
-              <img src={faq} alt="" />
-            </div>
-            <div className="questions">
-              <span>Can you create adverts on YouTube?</span>
-              <img src={faq} alt="" />
-            </div>
-            <div className="questions">
-              <span>Can you create adverts on YouTube?</span>
-              <img src={faq} alt="" />
-            </div>
-          </div>
+          <Collapse accordion defaultActiveKey={['0']} >
+      <Panel header="Can you create adverts on YouTube?" key="1" style={mystyle}>
+        <p style={mytext} data-aos="fade-up">Yes you can create adverts on Youtube</p>
+      </Panel>
+      <Panel header="Do you have an advertising plan?" key="2" style={mystyle}>
+        <p style={mytext} data-aos="fade-up">Yes i have yhb an advertising plan</p>
+      </Panel>
+      <Panel header="Do you write business proposals?" key="3" style={mystyle}>
+        <p style={mytext} data-aos="fade-up"> Yes i write business proposals?</p>
+      </Panel>
+      <Panel header="Do i need a huge amount of money to create adverts?" key="4" style={mystyle}>
+        <p style={mytext} data-aos="fade-up">No you don't need a huge amount of money to create adverts</p>
+      </Panel>
+      <Panel header="Can i create adverts in all social media platforms?" key="5" style={mystyle}>
+        <p style={mytext}  data-aos="zoom-in-up">Yes you can create adverts in all social media platforms</p>
+      </Panel>
+    </Collapse>
         </div>
       </div>
     </section>
@@ -348,7 +365,7 @@ In addition to being interested in the types of ad campaigns and news stories th
 
       {/* START FOOTER AREA.................. */}
 
-   <Footer/>
+   <Footer />
 
     </div>
   )

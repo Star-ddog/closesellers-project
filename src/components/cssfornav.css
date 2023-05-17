@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+ background-image: url("../image/home/navBackground.png");
+  background-position: center center;
+  background-size: cover;
+  border-bottom: 1px solid white;
+  color: white;
+
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.logo .logo-0{
+    width: 55px;
+    height: 50px;
+}
+.logo .logo-02{
+    width: 150px;
+    height: 30px;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+
+}
+
+.home,
+.seller-tv,
+.seller-print,
+.web-services,
+.contacts{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.home:hover,
+.seller-tv:hover,
+.seller-print:hover,
+.web-services:hover,
+.contacts:hover{
+   border-bottom: 2px solid white;
+   color: orange;
+}
+.mobile-menu-icon{
+    display: none;
+}
+@media screen and (max-width: 780px){
+    .navbar{
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+    .logo .logo-0{
+        width: 50px;
+        height: 50px;
+    }
+    .logo .logo-02{
+        width: 110px;
+        height: 38px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        height: 100vh;
+        z-index: 2;
+        background-image: url("../image/home/navBackground.png");
+  background-position: center center;
+  background-size: cover;
+    }
+    .nav-links-mobile li{
+        margin: 10px 0;
+    }
+    .home,
+    .seller-tv,
+    .seller-print,
+    .web-services,
+    .contacts{
+        color: white;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background: none;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+
+    }
+}
