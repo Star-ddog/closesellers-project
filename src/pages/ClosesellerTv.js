@@ -5,13 +5,14 @@ import './closesellertv.css';
 import arrow from '../image/home/arrow.png'
 import prodcast from '../image/closetv/prodcast.png'
 import comedy from '../image/closetv/comedy.png'
-import img1 from '../image/closetv/Img 1.png'
+import img1 from '../image/closetv/moiecom1.png'
 import img2 from '../image/closetv/Img 2.png'
-import img3 from '../image/closetv/Img 3.png'
+import img3 from '../image/closetv/moviecom2.png'
 import elearn from '../image/closetv/e-learning.png'
 import pastevent from '../image/closetv/pastevent.png'
 import event2 from '../image/closetv/event2.png'
 import event3 from '../image/closetv/event3.png'
+import upcomingEvent from '../image/closetv/upcoingEvent.png'
 
 import Footer from '../components/Footer';
 
@@ -24,8 +25,8 @@ const ClosesellerTv = () => {
         <div className="container">
             {/* After Navbar............... */}
 
-        <section className="after-kok">
-            <div className="after-nav-kok">
+        <section className="after-koks">
+            <div className="after-nav-koks">
                 <p>Welcome to closeSeller Tv</p>
                 <h2>Your one-stop-channel for entertainment, education, and social engagement.</h2>
                 <p>We offer a wide variety of social activities that are designed to keep you engaged and entertained, no matter what your interests are.</p>
@@ -143,7 +144,7 @@ const ClosesellerTv = () => {
             <div className="upcoming-event">
                 <div className="upcoming">
                     <div className="event-area">
-                        <img src=""alt="" />
+                        <img src={upcomingEvent} alt="" />
                     </div>
                     <h3>Upcoming Events</h3>
                     <a href="">Click to register <img src={arrow} alt="" /></a>

@@ -13,8 +13,8 @@ const Closesellerprint = () => {
 
              {/* /* After Navbar...............  */}
 
-             <section className="after-kok">
-            <div className="after-nav-kok">
+             <section className="after-koks">
+            <div className="after-nav-koks">
                 <p>Welcome to closeSeller Tv</p>
                 <h2>Your one-stop-channel for entertainment, education, and social engagement.</h2>
                 <p>We offer a wide variety of social activities that are designed to keep you engaged and entertained, no matter what your interests are.</p>

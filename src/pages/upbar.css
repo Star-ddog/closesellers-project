@@ -447,6 +447,7 @@
   color: #000000;
   padding: 20px 0;
   }
+ 
   .social-icon img{
     width: 25px;
   }
@@ -487,7 +488,9 @@
   @media only screen and (max-width: 480px){
     .hero-h2{
         padding-top: 55px;
+        
       }
+      
     .continer-close{
         display: flex;
         flex-direction: column;
@@ -546,14 +549,39 @@
         }
         .hero-center{
             width:100%;
-            padding: 60px 10px;
+            padding: 80px 10px;
             text-align: center;
             align-items: center;
-            gap: 30px;
+            gap: 20px;
         }
         .hero-center h2{
-          font-size: 30px;
+          font-size: 20px;
+          line-height: 30px;
+          text-align: left;
         }
+        .hero-h2 p{
+          
+          font-size: 15px;
+          line-height: 28px;
+          text-align: left;
+          }
+          .hero-center a{
+            background: #FB7E00;
+            border-radius: 5px;
+            padding: 16px 0;
+            width: 150px;
+            height: 50px;
+            font-size: 15px;
+            
+          }
+          .hero-center{
+            text-align: left;
+            align-items: flex-start;
+            justify-content: center;
+            
+          }
+          
+       
         
   .vision{
     display: flex;
@@ -600,20 +628,32 @@
   .advert{
     background: #701D9D;
     padding: 2.5rem 0;
-    margin: 100px 10px;
-    border-radius: 30px;
+    margin: 100px 0;
+    border-radius: 0;
   }
   .adverting{
     flex-direction: column;
   }
   .advert-content{
     
-    padding: 20px 20px;
+    padding: 20px 10px;
   }
   .ad-detials img{
     width: 100%;
     height: 100%;
   }
+  .ad-detials span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height:50px;
+    color: #D5D5D5;
+    }
+    .ad-detials p{
+      font-weight: 0;
+      font-size: 15px;
+      line-height: 30px;
+      color: #D5D5D5;
+      }
   .foot-1,
   .foot-2,
   .foot-3{
@@ -692,12 +732,20 @@
             margin: 0 10px;
         }
         .text-vision{
-            flex: 1;
+          
             padding:0 0.5rem;
             }   
+            
             .text-vision a{
             line-height: 70px;
             }
+            .text-vision p{
+              font-weight: 100;
+              font-size: 15px;
+              line-height: 35px;
+              color: #333333;
+              }
+              
             .swamp{
                 display: flex;
                 flex-direction: column-reverse;
@@ -718,6 +766,73 @@
                 
                 padding: 50px 20px;
               }
+              .boxx .circle{
+                
+                height: 55px;
+                width: 55px;
+               }
+               .boxx .circle p{
+                color: white;
+                font-size: 20px;
+                font-weight: 500;
+               
+              }
+
+              /* email area....... */
+              .mailss{
+                display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+              padding: 50px 10px;
+              gap: 20px;
+              }
+              .mailss .mail-span{
+              font-weight: 500;
+              font-size: 25px;
+              line-height: 40px;
+              text-align: center;
+              color: white;
+              padding: 0;
+              
+              }
+              .mailss a{
+                background: #FB7E00;
+                border-radius: 10px;
+                padding: 16px 10px;
+                text-decoration: none;
+                color: #FFFFFF;
+                width: 210px;
+                height: 50px;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center; 
+                     
+              }
+              .faq-section{
+                display: none;
+              }
+              .foot-1 .img-foot img{
+               width: 100px;
+               height: 28px;
+                }
+            
+                .close-foot .foot-1 .img-foot{
+                  align-items: left;
+                  gap: 10px;
+                }
+                .foot-1 p{
+                 
+                  font-weight: 100;
+                  font-size: 15px;
+                  line-height: 30px;
+                  color: #000000;
+                  padding: 10px 0;
+                  }
+                 
+              
         
   }
   @media only screen and (max-width: 350px){

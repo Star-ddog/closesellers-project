@@ -1,7 +1,7 @@
 
 /* START AFTER NAVBAR................ */
 
-.after-nav-kok{
+.after-nav-koks{
     background-image: url("../image/home/navBackground.png")  ;
    width: 100%;
    height: 100vh;
@@ -12,14 +12,14 @@
     justify-content: center;
     flex-direction: column;
 }
-.after-nav-kok h2{
+.after-nav-koks h2{
 font-weight: 700;
 font-size: 50px;
 line-height: 60px;
 text-align: center;
 color: #FFFFFF;
 }
-.after-nav-kok p{
+.after-nav-koks p{
     font-weight: 300;
 font-size: 18px;
 line-height: 30px;
@@ -80,7 +80,7 @@ color: #000000;
 }
 .detial-1 p{
     font-weight: 300;
-font-size: 16px;
+font-size: 15px;
 line-height: 40px;
 color: #333333;
 }
@@ -130,15 +130,15 @@ color: #333333;
     gap: 10px;
 }
 .img-1 img{
-    width: 100px;
+    width: 150px;
     height: 300px;
 }
 .img-2 img{
-    width: 470px;
+    width: 300px;
     height: 300px;
 }
 .img-3 img{
-    width: 100px;
+    width: 150px;
     height: 300px;
 }
 /* END MOVIE COMMUNITY...................... */
@@ -160,7 +160,7 @@ color: #000000;
 }
 .training-event p{
 font-weight: 100;
-font-size: 18px;
+font-size: 15px;
 line-height: 35px;
 color: #333333;
 padding-right: 150px;
@@ -168,7 +168,7 @@ margin-bottom: 50px;
 }
 .traing-flex{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 .pic-1{
     flex: 1;
@@ -177,16 +177,16 @@ margin-bottom: 50px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 .pic-1 img{
-    width: 550px;
+    width: 600px;
     height: 420px;
     border-radius: 10px;
 }
 .pic-2 img{
     width: 550px;
-    height: 200px;
+    height: 205px;
     border-radius: 10px;
 }
 /* TRAINING EVENTS........................... */
@@ -196,20 +196,20 @@ margin-bottom: 50px;
 }
 .upcoming{
 width: 100%;
-height: 500px;
+height: 700px;
 background: #FFFFFF;
 border-radius: 20px;
 padding: 30px;
 }
 .event-area{
 width: 100%;
-height: 360px;
+height: 500px;
 background: black;
 border-radius: 20px;
 }
 .event-area img{
     width: 100%;
-height: 360px;
+height: 500px;
 border-radius: 20px;
 }
 .upcoming h3{
@@ -224,7 +224,7 @@ color: #000000;
 }
 @media only screen and (max-width: 450px){
 
-    .after-nav-kok{
+    /* .after-nav-kok{
         background-image: url("../image/home/navBackground.png")  ;
        width: 100%;
        height: 100vh;
@@ -237,19 +237,19 @@ color: #000000;
     }
     .after-nav-kok h2{
     font-weight: 700;
-    font-size: 30px;
-    line-height: 50px;
-    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
     color: #FFFFFF;
     }
     .after-nav-kok p{
         font-weight: 300;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
     margin: 30px 0;
-    }
+    } */
 
 
     
@@ -269,6 +269,7 @@ color: #000000;
     .activity{
         flex-direction: column;
         padding:10px 20px;
+        
         
     }
     .activity-1{
@@ -338,8 +339,8 @@ color: #000000;
         }
         .training-event h2{
             font-weight: 600;
-            font-size: 30px;
-            line-height: 80px;
+            font-size: 25px;
+            line-height: 60px;
             color: #000000;
             }
         .upcoming-event{
@@ -347,16 +348,27 @@ color: #000000;
            
         }
         .upcoming{
-        padding: 20px;
+        padding: 10px;
         width: 100%;
         height: 100%;
         }
         .upcoming h3{
             font-weight: 600;
-            font-size: 25px;
-            line-height: 60px;
+            font-size: 20px;
+            line-height: 50px;
             color: #000000;
             }
+            .event-area{
+                width: 100%;
+                height: 100%;
+                background: black;
+                border-radius: 10px;
+                }
+                .event-area img{
+                    width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                }
 }
 @media screen and (min-width: 768px) and (max-width: 1100px){
     .traing-flex img{

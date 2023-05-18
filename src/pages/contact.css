@@ -1,31 +1,5 @@
 /* START AFTER NAVBAR................ */
 
-.after-nav-kok{
-    background-image: url("../image/home/navBackground.png")  ;
-   width: 100%;
-   height: 100vh;
-    background-position: center center;
-    background-size: cover;
-    padding: 20px 200px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.after-nav-kok h2{
-font-weight: 700;
-font-size: 50px;
-line-height: 60px;
-text-align: center;
-color: #FFFFFF;
-}
-.after-nav-kok p{
-    font-weight: 300;
-font-size: 18px;
-line-height: 30px;
-text-align: center;
-color: #FFFFFF;
-margin: 50px 0;
-}
 /* END AFTER NAVBAR................ */
 
 /* PRINT QUOTE........................ */
@@ -182,7 +156,8 @@ text-decoration: none;
 }
     .print-quotes span{
       font-size: 20px;
-      text-align: center;
+      line-height: 35px;
+      text-align: left;
     }
     .form-sec .inputs input{
         width: 100%;

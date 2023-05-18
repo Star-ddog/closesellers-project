@@ -114,7 +114,7 @@ We can create successful ads and turn your advertising investment into revenue, 
     
     <div className="container">
       <div className="advert">
-        <h1 className="advert-title"  data-aos="slide-left">Available Ads at Closeseller</h1>
+        <h1 className="advert-title"  data-aos="slide-left">Our Services</h1>
 
         <div className="advert-content">
 
