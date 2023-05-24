@@ -63,7 +63,7 @@ color: #000000;
 .ad-box{
     display: flex;
     gap: 30px;
-    margin: 50px 10px;
+    margin: 50px 20px;
 }
 .ad-boxes{
     padding: 20px 100px;
@@ -136,6 +136,7 @@ color: #FFFFFF;
         background-position: center center;
         background-size: cover;
         padding: 100px 20px;
+        padding-top: 150px;
         display: flex;
         justify-content: left;
         flex-direction: column;

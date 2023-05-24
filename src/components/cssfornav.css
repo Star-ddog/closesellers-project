@@ -7,12 +7,14 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 85px;
  background-image: url("../image/home/navBackground.png");
   background-position: center center;
   background-size: cover;
   border-bottom: 1px solid white;
   color: white;
+  position: fixed;
+  z-index: 2;
 
 }
 .logo{
@@ -20,15 +22,42 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .logo .logo-0{
     width: 55px;
     height: 50px;
 }
 .logo .logo-02{
-    width: 150px;
-    height: 30px;
-}
+    position: relative;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: none;
+    animation: animate 3s linear infinite;
+
+ }
+ @keyframes animate
+  {
+   0%,18%,20%,50.1%,60%,65.1%,80%,90%,92.1%,92% 
+   {
+     color: blueviolet;
+     text-shadow: none;
+   } 18%,20%,30%,50.1%,60%,65.1%,80%,90%,92.1%,100%{
+     color: #fff;
+     text-shadow: 0 0 10px blueviolet,
+     0 0 20px blueviolet,
+     0 0 40px blueviolet,
+     0 0 80px blueviolet,
+     0 0 160px blueviolet,
+
+   }
+
+ }
 .nav-links{
     display: flex;
     justify-content: flex-end;
@@ -66,16 +95,19 @@
     .logo{
         display: flex;
         position: absolute;
-        top: 20px;
+        top: 10px;
         left: 20px;
+        
     }
     .logo .logo-0{
         width: 50px;
-        height: 40px;
+        height: 45px;
+        background: none;
     }
     .logo .logo-02{
-        width: 100px;
-        height: 25px;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        font-weight: 550;
     }
     .nav-links{
         display: none;

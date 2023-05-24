@@ -2,10 +2,9 @@
 import './upbar.css';
 import './animation.css';
 import { Link } from 'react-router-dom';
-import React, { useEffect } from 'react';
+
 import { useState } from 'react';
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 
 
 import speaker from '../image/home/speaker.png';
@@ -37,11 +36,7 @@ const { Panel } = Collapse;
 
 const Upbar = () => {
  
-  useEffect(function () {
-    Aos.init({ duration: 2000,
-    mirror:'false',
- });
-  }, []);
+
 
   const mystyle = {
     backgroundColor: "white",
@@ -75,7 +70,7 @@ const Upbar = () => {
 creatives and data-driven strategists, we'll help you take your marketing to the next level. 
 Let's make your brand stand out and get noticed today!</p>
 
- <Link  to={'/contact'} ><a href="" data-aos="fade-down-right">Contact us today</a> </Link> 
+ <Link  to={'/contact'} ><a href="" data-aos="fade-up">Contact us today</a> </Link> 
 </div>
 </div>
     </div>
@@ -323,7 +318,7 @@ How can that ad be made more effective? What does it mean if it isn’t effectiv
         <span data-aos="flip-up" className='mail-span'>
         Don't wait another day to reach your marketing goals. Contact us now and let's make it happen!
         </span>
-        <a href="" data-aos="slide-right">
+        <a href="" data-aos="fade-up">
         Send us an email today
         </a>
       </div>
@@ -354,7 +349,7 @@ How can that ad be made more effective? What does it mean if it isn’t effectiv
         <p style={mytext} data-aos="fade-up">No you don't need a huge amount of money to create adverts</p>
       </Panel>
       <Panel header="Can i create adverts in all social media platforms?" key="5" style={mystyle}>
-        <p style={mytext}  data-aos="zoom-in-up">Yes you can create adverts in all social media platforms</p>
+        <p style={mytext}  data-aos="fade-up">Yes you can create adverts in all social media platforms</p>
       </Panel>
     </Collapse>
         </div>

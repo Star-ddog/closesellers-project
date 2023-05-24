@@ -11,9 +11,9 @@ const Contact = () => {
 
              <section className="after-koks">
             <div className="after-nav-koks">
-                <p>Welcome to closeSeller Tv</p>
-                <h2>Your one-stop-channel for entertainment, education, and social engagement.</h2>
-                <p>We offer a wide variety of social activities that are designed to keep you engaged and entertained, no matter what your interests are.</p>
+                <p data-aos="fade-up">Welcome to closeSeller Tv</p>
+                <h2 data-aos="zoom-in-up"> Your one-stop-channel for entertainment, education, and social engagement.</h2>
+                <p data-aos="fade-up">We offer a wide variety of social activities that are designed to keep you engaged and entertained, no matter what your interests are.</p>
             </div>
         </section>
             {/*END After Navbar............... */}
@@ -22,7 +22,7 @@ const Contact = () => {
            
            <section className="closeprintqoute">
             <div className="print-quotes">
-                <span>
+                <span data-aos="zoom-in"> 
                 You can reach us by filling out the form below and one of our representatives will get back to you as soon as possible.
                 </span>
                 
@@ -39,21 +39,21 @@ const Contact = () => {
                   <div className="inputs">
                     
                    <div>
-                   <input type="text" placeholder='Full Name' />
-                    <input type="text" placeholder='Phone Number' />        
+                   <input type="text" placeholder='Full Name' data-aos="zoom-in"/>
+                    <input type="text" placeholder='Phone Number' data-aos="zoom-in"/>        
                    </div>
                     <div>
-                    <input type="email" placeholder='Email'/>
-                    <input type="text" placeholder='Company Name'/>
+                    <input type="email" placeholder='Email' data-aos="zoom-in"/>
+                    <input type="text" placeholder='Company Name' data-aos="zoom-in"/>
                   
                     </div>
                   </div>
                   <div>
                     <label >Message Us</label>
-                    <textarea name="" id="" cols="86" rows="10"></textarea>
+                    <textarea name="" id="" cols="86" rows="10" data-aos="zoom-in"></textarea>
 
                   </div>
-                  <button>Send</button>
+                  <button data-aos="fade-up">Send</button>
 
                 </form>
 
@@ -71,17 +71,17 @@ We pride ourselves on providing exceptional customer service and are committed t
             
             <section className="contact-address">
               <div className="addresses">
-                <div className="address">
+                <div className="address" data-aos="zoom-in-up">
                   <span>Complaints abd Issue.</span>
                   <p>Our 24/7 support team is ready to help</p>
                   <a href="">Contact support <img src={arrow} alt="" /></a>
                 </div>
-                <div className="address">
+                <div className="address" data-aos="zoom-in-up">
                   <span>Complaints abd Issue.</span>
                   <p>Reach out to our media and marketing teams.</p>
                   <a href="">Contact or team <img src={arrow} alt="" /></a>
                 </div>
-                <div className="address">
+                <div className="address" data-aos="zoom-in-up">
                   <span>Media and PR</span>
                   <p>Reach out to our media and marketing teams.</p>
                   <a href="">Contact media team <img src={arrow} alt="" /></a>
@@ -94,10 +94,10 @@ We pride ourselves on providing exceptional customer service and are committed t
            <section className="mail-section">
     <div className="container">
       <div className="mail">
-        <span>
+        <span data-aos="zoom-in">
         Don't wait another day to reach your marketing goals. Contact us now and let's make it happen!
         </span>
-        <a href="">
+        <a href="" data-aos="fade-up">
         Send us an email today
         </a>
       </div>

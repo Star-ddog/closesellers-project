@@ -6,6 +6,7 @@
   .home-page{
     width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
    
   }
   /* //////// */
@@ -439,9 +440,37 @@
     align-items: center;
     gap: 20px;
   }
+  .foot-1 .img-foot .foot-logo{
+    position: relative;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: black;
+    font-family: sans-serif;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: none;
+    animation: animatee 3s linear infinite;
+  }
+  @keyframes animatee
+  {
+   0%,18%,20%,50.1%,60%,65.1%,80%,90%,92.1%,92% 
+   {
+     color: blueviolet;
+     text-shadow: none;
+   } 18%,20%,30%,50.1%,60%,65.1%,80%,90%,92.1%,100%{
+    color: #FB7E00;
+     text-shadow: 0 0 10px blueviolet,
+     0 0 20px blueviolet,
+     0 0 40px blueviolet,
+     0 0 80px blueviolet,
+     0 0 160px blueviolet,
+
+   }
+
+ }
   .foot-1 p{
-  font-style: normal;
-  font-weight: 300;
+  margin-top: 10px;
   font-size: 20px;
   line-height: 30px;
   color: #000000;
@@ -487,7 +516,8 @@
   
   @media only screen and (max-width: 480px){
     .hero-h2{
-        padding-top: 55px;
+        padding-top: 90px;
+       
         
       }
       
@@ -659,7 +689,11 @@
   .foot-3{
     flex-direction: column;
   }
-  
+  .foot-1 .img-foot .foot-logo{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 550;
+  }
   .close-foot{
     flex-direction: column;
     padding: 40px 20px;
