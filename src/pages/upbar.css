@@ -420,9 +420,9 @@
     justify-content: center;      
   }
   .mailss a:hover{
-    background: wheat;
+    background: white;
     color: #701D9D;
-    border-bottom: 5px solid white;    
+    border-bottom: 5px solid wheat;    
     font-weight: 600;
   }
   
