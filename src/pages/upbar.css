@@ -1,8 +1,4 @@
 
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-  } */
   .home-page{
     width: 100%;
     overflow-x: hidden;
@@ -22,7 +18,12 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     
+  }
+  .hero-center a:hover{
+    background: white;
+    color: #000000;
   }
   
   .nav-area{
@@ -105,12 +106,15 @@
   font-size: 20px;
   line-height: 40px;
   color: #701D9D;
+  padding: 10px;
   margin-top: 2rem;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
-  .text-vision .learn-more:hover{
-    color: #FB7E00;
-    display: flex;
-    gap: 20px;
+  .text-vision a:hover{
+    box-shadow: inset 160px 0 0 0 black;
+    color: white;
+  
   }
   .text-vision .learn-more{
   margin-top: 2rem;
@@ -266,6 +270,16 @@
     position: relative;
   
   }
+  .cont-button:hover{
+    background: none;
+    text-decoration: none;
+    color: #701D9D;
+    border-bottom: 2px solid orange;
+    font-size: 1rem;
+    padding: 10px 20px;
+   
+  
+  }
   
   /* END CONTACT AREA................. */
   
@@ -395,15 +409,21 @@
   .mailss a{
     background: #FB7E00;
     border-radius: 10px;
-    padding: 16px 30px;
+    padding: 16px 20px;
     text-decoration: none;
     color: #FFFFFF;
-    width: 261px;
-    height: 72px;
+    width: 250px;
+    height: 65px;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;      
+  }
+  .mailss a:hover{
+    background: wheat;
+    color: #701D9D;
+    border-bottom: 5px solid white;    
+    font-weight: 600;
   }
   
   /* END MAIL AREA............. */
