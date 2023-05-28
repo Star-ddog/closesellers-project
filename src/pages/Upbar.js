@@ -25,6 +25,8 @@ import degital from '../image/home/degital.png';
 import video from '../image/home/video.png';
 import faq from '../image/home/faq.png';
 
+import videosell from '../videos/video.mp4'
+
 import Footer from '../components/Footer';
 import { Collapse } from 'antd';
 const { Panel } = Collapse;
@@ -130,7 +132,13 @@ We can create successful ads and turn your advertising investment into revenue, 
                that occurs before, during and/or after a video stream on the internet.</p>
           </div>
           <div className="ad-detials">
-            <img src="" alt="" data-aos="zoom-out-up"/>
+          <video controls loop autoPlay muted poster="">
+  <source
+    src={videosell}
+    type="video/mp4"
+  />
+</video>
+
             <span className="detail-tit">Animated Advertisement</span>
             <p>What Is an Animated Ad? Simply put, animated ads are short commercial cartoon 
               videos meant to promote a company's products or services.</p>
@@ -191,7 +199,7 @@ At Closeseller, we see beyond the limits, as we have professionals willing to he
                         </div>
                         <div className='margin-topp'>
                         <span>COMMUNICATION</span>
-                        <p>Our advertising is about being able to communicate thoughts, feelings and emotions to consumers through various mediums, whether that be a television commercial, a print ad in a magazine or a website banner ad.</p>
+                        <p>Being able to communicate your business across to your right audience is our top priority.</p>
                         </div>
                     </div>
                     <div className="boxx"  data-aos="zoom-in-up">

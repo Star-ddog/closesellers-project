@@ -83,18 +83,18 @@ const ClosesellerTv = () => {
             <div className="movie-comm">
                 <div className="movie-1">
                     <span data-aos="zoom-in">Movie Community</span>
-                    <p data-aos="fade-up">For movie lovers, our movie community is the perfect place to be. Whether you're a die-hard film buff or just enjoy watching the occasional movie, we've got something for everyone.</p>
+                    <p>For movie lovers, our movie community is the perfect place to be. Whether you're a die-hard film buff or just enjoy watching the occasional movie, we've got something for everyone.</p>
                 </div>
                 
                 <div className="movie-img">
                     <div className="img-1">
-                        <img src={img1} alt=""  data-aos="zoom-in-up"/>
+                        <img src={img1} alt="" data-aos="flip-up"/>
                     </div>
                     <div className="img-2">
-                        <img src={img2} alt=""  data-aos="zoom-in-up"/>
+                        <img src={img2} alt=""  data-aos="flip-up"/>
                     </div>
                     <div className="img-3">
-                        <img src={img3} alt=""  data-aos="zoom-in-up"/>
+                        <img src={img3} alt=""  data-aos="flip-up"/>
                     </div>
 
                 </div>
@@ -114,7 +114,7 @@ const ClosesellerTv = () => {
 
                             <div className="detial-1">
                             <span data-aos="flip-down">E-Learning</span>
-                            <p data-aos="flip-up">We believe in the power of education, which is why we offer a range of side hustle tutorials and educational videos on our YouTube channel. Whether you're looking to learn a new skill or just want to brush up on your existing knowledge, we've got you covered.</p>
+                            <p data-aos="fade-up">We believe in the power of education, which is why we offer a range of side hustle tutorials and educational videos on our YouTube channel. Whether you're looking to learn a new skill or just want to brush up on your existing knowledge, we've got you covered.</p>
                             
                             </div>
 

@@ -2,8 +2,8 @@
 /* START AFTER NAVBAR................ */
 
 .close-seller-tv{
-    overflow-x: hidden;
-    overflow-y: hidden;
+    
+    overflow: hidden;
 }
 
 .after-nav-koks{
@@ -234,35 +234,6 @@ color: #000000;
     color: #701D9D;
 }
 @media only screen and (max-width: 450px){
-
-    /* .after-nav-kok{
-        background-image: url("../image/home/navBackground.png")  ;
-       width: 100%;
-       height: 100vh;
-        background-position: center center;
-        background-size: cover;
-        padding: 20px 20px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .after-nav-kok h2{
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: left;
-    color: #FFFFFF;
-    }
-    .after-nav-kok p{
-        font-weight: 300;
-    font-size: 15px;
-    line-height: 30px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 30px 0;
-    } */
-
-
     
     .social-act  .h-1 {
         background-color: #FFFFFF;
