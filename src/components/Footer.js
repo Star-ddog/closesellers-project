@@ -29,9 +29,9 @@ const Footer = () => {
     Our mission is to help businesses of all sizes grow their customer base by creating compelling promotional ads on all social media platforms.
     </p>
     <div className="social-icon">
-      <img src={fb} alt="" data-aos="zoom-in"/>
-      <img src={tw} alt="" data-aos="zoom-in"/>
-      <img src={ig} alt="" data-aos="zoom-in"/>
+      <img src={fb} alt="" />
+      <img src={tw} alt="" />
+      <img src={ig} alt="" />
     </div>
 
         </div>
@@ -41,7 +41,7 @@ const Footer = () => {
             <li  data-aos="fade-up"><a href="" className='home-color' >Home</a></li>
             <li  data-aos="fade-up"><a href="" >About Us</a></li>
             <li  data-aos="fade-up"><a href=""   >Company</a></li>
-           <li  data-aos="zoom-in"> <a href="">Career</a></li>
+           <li > <a href="">Career</a></li>
             <li><a href="" >Partner with us</a></li>
           </ul>
           <ul>

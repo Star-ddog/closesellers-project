@@ -92,8 +92,8 @@ color: #16061F;
 /* start mail................ */
 
 .mail-section{
-    background: #701D9D;
-    padding: 20px 10px;
+    background: hsl(279, 69%, 36%);
+    padding: 20px 100px;
 }
 .mail{
     display: flex;
@@ -101,13 +101,12 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
-padding: 50px;
 gap: 30px;
 }
 .mail span{
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 25px;
 line-height: 60px;
 text-align: center;
 color: #FFFFFF;

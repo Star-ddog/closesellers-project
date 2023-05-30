@@ -50,7 +50,9 @@ const ClosesellerTv = () => {
                             <div className="detial-1">
                             <span>TV Prodcast</span>
                             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">Our online streaming event, "Talk Ur Mind," is a must-see for anyone who loves engaging in controversial topics. We host a range of guests, including business people, artists, influencers, students, and members of the public, all of whom bring their unique perspectives to the discussion.</p>
-                            <a href="">View Our Prodcast <img src={arrow} alt="" /></a>
+                            <div className="prodacst-but">
+                           <a href="">View Our Prodcast <img src={arrow} alt="" /></a>
+                           </div>
                             </div>
 
                             <div className="detial-img"  data-aos="zoom-out-down">
@@ -65,7 +67,9 @@ const ClosesellerTv = () => {
                             <div className="detial-1">
                             <span data-aos="fade-up"> TV Prodcast</span>
                             <p data-aos="fade-up">Our online streaming event, "Talk Ur Mind," is a must-see for anyone who loves engaging in controversial topics. We host a range of guests, including business people, artists, influencers, students, and members of the public, all of whom bring their unique perspectives to the discussion.</p>
-                            <a href="">View Our Prodcast <img src={arrow} alt="" /></a>
+                           <div className="prodacst-but">
+                           <a href="">View Our Prodcast <img src={arrow} alt="" /></a>
+                           </div>
                             </div>
 
                         </div>
