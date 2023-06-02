@@ -50,7 +50,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <label >Message Us</label>
-                    <textarea name="" id="" cols="86" rows="10" data-aos="zoom-in"></textarea>
+                    <textarea name="" id="" cols="80" rows="10" data-aos="zoom-in"></textarea>
 
                   </div>
                   <button data-aos="fade-up">Send</button>
