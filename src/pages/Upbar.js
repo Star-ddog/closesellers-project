@@ -348,7 +348,7 @@ How can that ad be made more effective? What does it mean if it isn’t effectiv
         <p style={mytext} data-aos="fade-up">Yes you can create adverts on Youtube</p>
       </Panel>
       <Panel header="Do you have an advertising plan?" key="2" style={mystyle}>
-        <p style={mytext} data-aos="fade-up">Yes i have yhb an advertising plan</p>
+        <p style={mytext} data-aos="fade-up">Yes i have an advertising plan</p>
       </Panel>
       <Panel header="Do you write business proposals?" key="3" style={mystyle}>
         <p style={mytext} data-aos="fade-up"> Yes i write business proposals?</p>
