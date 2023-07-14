@@ -27,7 +27,7 @@ const Closesellerprint = () => {
            <section className="closeprintqoute">
             <div className="print-quote">
                 <span data-aos="zoom-in">
-                At Closeseller Print, we believe that every individual has their unique style, and our mission is to help them express it through customized shirts and bags.
+                At Closeseller Print, We believe that every individual has their unique style, and our mission is to help them express it through customized shirts and bags.
                 </span>
             </div>
            </section>
