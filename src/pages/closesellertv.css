@@ -79,6 +79,7 @@ padding: 50px;
 .detial-img img{
     width: 550px;
     height: 350px;
+    cursor: pointer;
 }
 .detial-1 span{
     font-weight: 700;
@@ -161,14 +162,17 @@ padding: 50px;
 .img-1 img{
     width: 250px;
     height: 100%;
+    cursor: pointer;
 }
 .img-2 img{
     width: 300px;
     height: 100%;
+    cursor: pointer;
 }
 .img-3 img{
     width: 250px;
     height: 100%;
+    cursor: pointer;
 }
 
 .slider-movie{
@@ -218,11 +222,13 @@ margin-bottom: 50px;
     width: 600px;
     height: 420px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .pic-2 img{
     width: 550px;
     height: 205px;
     border-radius: 10px;
+    cursor: pointer;
 }
 /* TRAINING EVENTS........................... */
 .upcoming-event{
@@ -246,6 +252,7 @@ border-radius: 20px;
     width: 100%;
 height: 500px;
 border-radius: 20px;
+cursor: pointer;
 }
 .upcoming h3{
 font-weight: 600;

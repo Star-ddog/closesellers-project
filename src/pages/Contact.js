@@ -72,12 +72,12 @@ We pride ourselves on providing exceptional customer service and are committed t
             <section className="contact-address">
               <div className="addresses">
                 <div className="address" data-aos="zoom-in-up">
-                  <span>Complaints abd Issue.</span>
+                  <span>Complaints and Issue.</span>
                   <p>Our 24/7 support team is ready to help</p>
                   <a href="">Contact support <img src={arrow} alt="" /></a>
                 </div>
                 <div className="address" data-aos="zoom-in-up">
-                  <span>Complaints abd Issue.</span>
+                  <span>Complaints and Issue.</span>
                   <p>Reach out to our media and marketing teams.</p>
                   <a href="">Contact or team <img src={arrow} alt="" /></a>
                 </div>

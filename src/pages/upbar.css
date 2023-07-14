@@ -127,10 +127,12 @@
   .img-vision img{
   width: 450px;
   height: 500px;
+  cursor: pointer;
   
   }
   .img-about img{
     width: 600px;
+    cursor: pointer;
     height: 450px;
     }
   .arrow{
@@ -230,6 +232,11 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+  }
+  .social-flex a:hover{
+    box-shadow: 0px 10px 30px rgba(57, 56,61,0.205);
+    padding-right: 20px;
   }
   .sponsor-write{
     font-weight: 600;
@@ -252,6 +259,7 @@
     height: 30.062889099121094px;
     width: 30.0625px;
     margin: 0 10px;
+    cursor: pointer;
   
   }
   .h-2{
@@ -316,6 +324,7 @@
     width: 100%;
     height: 250px;
     margin-bottom: 20px;
+    cursor: pointer;
     }
   .ad-detials video{
     width: 100%;
@@ -414,15 +423,14 @@
   .mailss a{
     background: #FB7E00;
     border-radius: 10px;
-    padding: 16px 20px;
+    padding: 15px 20px;
     text-decoration: none;
-    color: #FFFFFF;
-    width: 250px;
-    height: 65px;
+    color: hsl(0, 0%, 100%);
+    height: 60px;
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;      
+    justify-content: center;       
   }
   .mailss a:hover{
     background: white;
@@ -457,15 +465,19 @@
   }
   .close-foot{
     display: flex;
+    flex-direction: row;
     padding: 40px;
-    gap: 70px;
-   
+    gap: 10rem;
+    justify-content: space-between;
+    width: 100%;
   }
-  .foot-1, 
-  .foot-2, 
+  .foot-1{
+    width: 70%;
+  }
   .foot-3{
-    flex: 1;
+    width: 30%;
   }
+ 
   .close-foot .foot-1 div{
     display: flex;
     align-items: center;
@@ -510,6 +522,7 @@
  
   .social-icon img{
     width: 25px;
+    cursor: pointer;
   }
   .close-foot .foot-2{
     display: flex;

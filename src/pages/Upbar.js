@@ -10,20 +10,17 @@ import { useState } from 'react';
 import speaker from '../image/home/speaker.png';
 import vision from '../image/home/vision.png';
 import arrow from '../image/home/arrow.png';
-import advert from '../image/home/advert.png';
-import sellertv from '../image/home/sellertv.png';
-import analysis from '../image/home/analysis.png';
-import social from '../image/home/social.png';
 import fb from '../image/home/icons/fb.png';
 import ig from '../image/home/icons/ig.png';
 import linkend from '../image/home/icons/linkend.png';
 import youtube from '../image/home/icons/youtube.png';
 import tw from '../image/home/icons/tw.png';
-import google from '../image/home/icons/google.png';
+import tiktok from '../image/home/icons/toktic.png';
+import whatsapp from '../image/home/icons/whatsapp.png';
 import audio from '../image/home/icons/audio.png';
 import degital from '../image/home/degital.png';
 import video from '../image/home/video.png';
-import faq from '../image/home/faq.png';
+
 
 import videosell from '../videos/video.mp4'
 
@@ -66,11 +63,10 @@ const Upbar = () => {
 <div className="hero-h2">
 <div className="hero-center">
     
-<h2 data-aos="fade-up">Let assist you in boosting your sales and expanding your reach.</h2>
+<h2 data-aos="fade-up">Let's assist you in boosting your sales and expanding your reach.</h2>
 
-<p data-aos="fade-down">Look no further than our top-rated advertising agency! With a team of expert
-creatives and data-driven strategists, we'll help you take your marketing to the next level. 
-Let's make your brand stand out and get noticed today!</p>
+<p data-aos="fade-down">We'll help you create amazing marketing Adverts to 
+make your brand stand out and get noticed Today</p>
 
  <Link  to={'/contact'} ><a href="" data-aos="fade-up">Contact us today</a> </Link> 
 </div>
@@ -129,7 +125,7 @@ We can create successful ads and turn your advertising investment into revenue, 
             <p>Video advertising encompasses online display 
               advertisements that have video within them, but it 
               is generally accepted that it refers to advertising
-               that occurs before, during and/or after a video stream on the internet.</p>
+               that occurs before, during and or after a video stream on the internet.</p>
           </div>
           <div className="ad-detials">
           <video controls loop autoPlay muted poster="">
@@ -140,7 +136,7 @@ We can create successful ads and turn your advertising investment into revenue, 
 </video>
 
             <span className="detail-tit">Animated Advertisement</span>
-            <p>What Is an Animated Ad? Simply put, animated ads are short commercial cartoon 
+            <p>What Is an Animated Ads? Simply put, animated ads are short commercial cartoon 
               videos meant to promote a company's products or services.</p>
           </div>
 
@@ -166,7 +162,7 @@ We can create successful ads and turn your advertising investment into revenue, 
 
       <div className="text-vision">
         <span data-aos="zoom-in">Our vision</span>
-        <h3>A branding and publicity management company</h3>
+        <h3>As a branding and publicity management company</h3>
         <p data-aos="fade">We aim to create possibilities by creating promotional ads for businesses across all social media platforms.
 
 At Closeseller, we see beyond the limits, as we have professionals willing to help our customers expand their customer base on social media platforms.</p>
@@ -275,16 +271,16 @@ How can that ad be made more effective? What does it mean if it isn’t effectiv
           <div className="contact-link">
             
             <div className="social-flex face-book" data-aos="fade-up">
-              <a href=""><img src={fb} alt="" />Facebook</a>
+              <a href="https://web.facebook.com/closesellerchannel"><img src={fb} alt="" />Facebook</a>
             </div>
             <div className="social-flex instagram" data-aos="fade-down">
-              <a href=""><img src={ig} alt="" />Instagram</a>
+              <a href="https://instagram.com/closeseller?igshid=MzNlNGNkZWQ4Mg=="><img src={ig} alt="" />Instagram</a>
             </div>
             <div className="social-flex linkend" data-aos="zoom-in">
-              <a href=""><img src={linkend} alt="" />Linkedln</a>
+              <a href="https://www.linkedin.com/in/closeseller/"><img src={linkend} alt="" />Linkedln</a>
             </div>
             <div className="social-flex youtube" data-aos="flip-up">
-              <a href=""><img src={youtube} alt="" />Youtube</a>
+              <a href="https://youtube.com/@closesellertv"><img src={youtube} alt="" />Youtube</a>
             </div>
           </div>
 
@@ -293,13 +289,13 @@ How can that ad be made more effective? What does it mean if it isn’t effectiv
             
            <div className="h-2">
            <div className="social-flex face-book" data-aos="flip-left">
-              <a href=""><img src={tw} alt="" />Twitter</a>
+              <a href="https://twitter.com/CSellertv"><img src={tw} alt="" />Twitter</a>
             </div>
             <div className="social-flex instagram" data-aos="slide-right">
-              <a href=""><img src={google} alt="" />Google Adsence</a>
+              <a href="http://tiktok.com/@closeseller"><img src={tiktok} alt="" />Tiktok</a>
             </div>
             <div className="social-flex linkend" data-aos="slide-left">
-              <a href=""><img src={audio} alt="" />Audiomack</a>
+              <a href="https://wa.me/+2349031392167"><img src={whatsapp} alt="" />Whatsapp</a>
             </div>
            </div>
             

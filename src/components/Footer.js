@@ -36,22 +36,6 @@ const Footer = () => {
 
         </div>
 
-        <div className="foot-2">
-          <ul>
-            <li  data-aos="fade-up"><a href="" className='home-color' >Home</a></li>
-            <li  data-aos="fade-up"><a href="" >About Us</a></li>
-            <li  data-aos="fade-up"><a href=""   >Company</a></li>
-           <li > <a href="">Career</a></li>
-            <li><a href="" >Partner with us</a></li>
-          </ul>
-          <ul>
-            <li data-aos="fade-up"><a href="" >Close Seller Tv</a></li>
-            <li data-aos="fade-up"><a href="">Web Services</a></li>
-  
-            
-          </ul>
-    
-        </div>
 
         <div className="foot-3">
 
@@ -61,13 +45,6 @@ const Footer = () => {
 <path d="M3.62 7.79C5.06 10.62 7.38 12.94 10.21 14.38L12.41 12.18C12.69 11.9 13.08 11.82 13.43 11.93C14.55 12.3 15.75 12.5 17 12.5C17.2652 12.5 17.5196 12.6054 17.7071 12.7929C17.8946 12.9804 18 13.2348 18 13.5V17C18 17.2652 17.8946 17.5196 17.7071 17.7071C17.5196 17.8946 17.2652 18 17 18C12.4913 18 8.1673 16.2089 4.97918 13.0208C1.79107 9.8327 0 5.50868 0 1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0H4.5C4.76522 0 5.01957 0.105357 5.20711 0.292893C5.39464 0.48043 5.5 0.734784 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z" fill="black"/>
 </svg>
 <span >09044753754 </span>
-    </div>
-
-    <div className="cont e-mail" data-aos="fade-up">
-    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M20 2C20 0.9 19.1 0 18 0H2C0.9 0 0 0.9 0 2V14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2ZM18 2L10 7L2 2H18ZM18 14H2V4L10 9L18 4V14Z" fill="black"/>
-</svg>
-<span>mailto:Closeller@gmail.com</span>
     </div>
 
     <div className="cont location" data-aos="fade-up">
