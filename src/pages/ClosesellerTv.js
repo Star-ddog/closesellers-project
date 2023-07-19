@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
+
 
 import './closesellertv.css';
 import './slider.css';
@@ -206,6 +208,15 @@ const ClosesellerTv = () => {
           
             {/* END MOVIE COMMUNITY.................... */}
 
+            {/* START Advert promotion */}
+            <section className="advert-promotion">
+              <h2 className="promo-title">Advert promotion</h2>
+              <p className="promo-text">Are you a business owner looking to boost your brand awareness and reach a wider audience? Look 
+            no further! CloseSellerTV Advert Promotion Service is here to help you skyrocket your sales through targeted TV advertising campaigns.
+            </p>
+            <Link to={'/whytv'} ><a href="">Why choose CloseSellerTV?</a></Link>
+            </section>
+
 
             {/* START E-LEARNING AREA........................ */}
             <section className="e-learning">
@@ -225,6 +236,93 @@ const ClosesellerTv = () => {
 
             </section>
             {/* END E-LEARNING AREA........................ */}
+
+            {/* start red capert area */}
+
+            <section className="red-carpet">
+
+              <p className="red-tit">
+                <span>RED Carpet :</span>
+              Book us now let’s host your glamorous red carpet event which includes
+               videos and photos. We work as a team to bring exclusive glitz, glamour, and celebration.
+              </p>
+             
+                <div className="red-text">
+                 <div>
+                 <p>
+                  Our red carpet events will leave your guest, including top-dignitaries , industry influencers, and celebrities amazed. Attendees will have the opportunity to network with fellow, industry professionals, and potential business partners.
+                  </p>
+
+                  <p>
+                  In addition to celebrating your achievements, our red carpet event should be notified minimum of 2weeks ahead the occasions to enable us reach agreements.
+                  </p>
+                  <p>
+                  ClosesellerTv understands the importance of recognizing and appreciating  hard work and dedications . This red carpet event is our way of showing our gratitude and celebrating their success.
+                  </p>
+                  <span>For more information, please contact our event coordinator at</span>
+                 </div>
+                </div>
+
+            </section>
+
+
+            {/* End start red capert area */}
+
+            {/* START BRAND COLLABORATION */}
+
+        <section className='brand-colla'>
+         <div className='brand-colla-tit'>
+         <h2>Brand Collaboration</h2>
+          <p className='colla-text'>
+          At ClosesellerTV, we understand the importance of building strong partnerships and collaborations with brands. We are excited to introduce our Brand Collaboration Program, which aims to create mutually beneficial relationships between ClosesellerTV and brands looking to increase their visibility and reach.
+          </p>
+         </div>
+
+          <div className="brand-colla-box">
+
+            <div className="colla-box">
+              <h3>How to participate in the Brand Collaboration Program:</h3>
+              <li> <span>1</span>
+              Submit your brand: Interested brands can apply to participate in the program by filling out a form on our website. We review each application carefully to ensure a good fit.
+              </li>
+              <li><span>2</span>
+              Collaboration proposal: Once selected, brands will be required to submit a collaboration proposal outlining their objectives, target audience, and proposed collaboration ideas.
+              </li>
+              <li><span>3</span>
+              Collaboration execution: Upon approval of the proposal, we will work closely with the brand to execute the collaboration, including content creation, promotion, and engagement with our audience.
+              </li>
+              <li><span>4</span>
+              Evaluation and feedback: After the collaboration is completed, we will evaluate the results together with the brand, providing feedback and suggestions for future collaborations.
+              </li>
+            </div>
+
+            <div className="colla-box">
+              <h3>Benefits of the Brand Collaboration Program:</h3>
+              <li> <span>1</span>
+              Increased exposure: Collaborating with ClosesellerTV allows brands to tap into our extensive audience base and gain exposure to potential customers.
+              </li>
+              <li><span>2</span>
+              Targeted marketing: ClosesellerTV focuses on the e-commerce and online selling industry, ensuring that brand collaborations are relevant and reach the right target
+              </li>
+              <li><span>3</span>
+              Content creation: Through collaborations, brands have the opportunity to co-create engaging and informative content with our team, helping to showcase their products or services.
+              </li>
+              <li><span>4</span>
+              Social media promotion: Collaborating brands will be featured across our social media platforms, including Instagram, Facebook, and YouTube, giving them access to our followers and subscribers.
+              </li>
+              <li><span>5</span>
+              Networking opportunities: The Brand Collaboration Program provides a platform for brands to connect and network with other like-minded businesses, fostering potential partnerships and collaborations beyond ClosesellerTV.
+              </li>
+            </div>
+          </div>
+
+          <div className="colla-note">
+            <span>*Please note that our Brand Collaboration Program is open to brands from various industries.</span>
+            <p>If you are interested in partnering with ClosesellerTV through our Brand Collaboration Program, please visit our website and submit your brand for consideration. We look forward to exploring the possibilities of working together and helping your brand reach new heights.</p>
+          </div>
+        </section>
+
+            {/* END BRAND COLLABORATION */}
 
             {/* START TRAINING EVENTS............................ */}
         <section className="training-sec">

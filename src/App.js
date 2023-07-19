@@ -11,6 +11,7 @@ import Closesellerprint from './pages/Closesellerprint';
 import Contact from './pages/Contact';
 import Upbar from './pages/Upbar';
 import WebServices from './pages/WebServices';
+import WhyTv from "./pages/WhyTv";
 
 function App() {
   useEffect(function () {
@@ -41,6 +42,7 @@ function App() {
     <Route path="/closesellerPrint" element={<Closesellerprint/>}/>
     <Route path="/webService" element={<WebServices/>}/>
     <Route path="/contact" element={<Contact/>}/>
+    <Route path="/whytv" element={<WhyTv/>}/>
      
     </Routes>
     </Wrapper>
