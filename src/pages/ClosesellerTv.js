@@ -16,6 +16,8 @@ import pastevent from '../image/closetv/pastevent.png'
 import event2 from '../image/closetv/event2.png'
 import event3 from '../image/closetv/event3.png'
 import upcomingEvent from '../image/closetv/upcoingEvent.png'
+import ambassador1 from '../image/closetv/ambassador3.jpg'
+
 
 
 
@@ -323,6 +325,24 @@ const ClosesellerTv = () => {
         </section>
 
             {/* END BRAND COLLABORATION */}
+
+            {/* START Ambassadorship program */}
+
+        <section className="ambassadorship-program">
+
+          <div className="amba-pro">
+            <h1>Ambassadorship program</h1>
+            <p>we are excited to announce our new ambassadorship program exclusively designed for students. We 
+              believe in empowering students to become influential brand advocates and gain valuable experience
+               while representing our company.</p>
+               <div><Link to={'/ReadMoreAmbPro'}><a href="">Read More👉</a></Link></div>
+          </div>
+          <div className="amba-img">
+            <img src={ambassador1} alt="" />
+          </div>
+        </section>
+
+            {/* END Ambassadorship program */}
 
             {/* START TRAINING EVENTS............................ */}
         <section className="training-sec">
