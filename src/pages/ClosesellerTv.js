@@ -17,6 +17,12 @@ import event2 from '../image/closetv/event2.png'
 import event3 from '../image/closetv/event3.png'
 import upcomingEvent from '../image/closetv/upcoingEvent.png'
 import ambassador1 from '../image/closetv/ambassador3.jpg'
+import talkPic1 from '../image/closetvtalk/talkPic1.jpeg'
+import talkPic2 from '../image/closetvtalk/talkPic2.jpg'
+import talkPic3 from '../image/closetvtalk/talkPic3.jpg'
+import talkPic4 from '../image/closetvtalk/talkPic4.jpg'
+import talkPic5 from '../image/closetvtalk/talkPic5.jpg'
+
 
 
 
@@ -56,10 +62,11 @@ const ClosesellerTv = () => {
                         <div className="activity activity-1">
                             
                             <div className="detial-1">
-                            <span>TV Prodcast</span>
-                            <p data-aos="fade-up" >Our online streaming event, "Talk Ur Mind," is a must-see for anyone who loves engaging in controversial topics. We host a range of guests, including business people, artists, influencers, students, and members of the public, all of whom bring their unique perspectives to the discussion.</p>
+                            <span>Talk your mind Prodcast</span>
+                            <p data-aos="fade-up" >Talk Ur Mind is a thought-provoking and engaging podcast program that is hosted by SIMEON MICHEALS at Closesellertv. This program aims to delve into various topics and issues that are relevant to personal growth, self-improvement, and overall well-being.</p>
                             <div className="prodacst-but">
-                           <a href="">View Our Prodcast <img src={arrow} alt="" /></a>
+                           <Link to={'/TakUrMind'} ><a href="">View Our Prodcast <img src={arrow} alt="" /></a></Link>
+                           
                            </div>
                             </div>
 
@@ -136,7 +143,7 @@ const ClosesellerTv = () => {
   <label for="s1" id="slide1">
     <div class="card">
       <div class="image">
-        <img src="https://scontent.fabb1-2.fna.fbcdn.net/v/t39.30808-6/350134196_3562607053969132_5395996830974223312_n.jpg?stp=dst-jpg_p180x540&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFiW_RJwIlW2-5mxKTQz9MIOc-F_vY08ss5z4X-9jTyy8dkEybHzfigXO9K6umXdKx_prAS36WMZ-kZcRcvEFmh&_nc_ohc=E3FuANX8bP0AX-q0_qz&_nc_zt=23&_nc_ht=scontent.fabb1-2.fna&oh=00_AfAiInYdbkveNUyKRkRHnwqG4RXoTpDHB1XHlJQMtdCf4g&oe=647F79DB" />
+        <img src={talkPic1} />
         <div class="dots">
           <div></div>
           <div></div>
@@ -150,7 +157,7 @@ const ClosesellerTv = () => {
   <label for="s2" id="slide2">
     <div class="card">
       <div class="image">
-        <img src="https://scontent.fabb1-1.fna.fbcdn.net/v/t39.30808-6/350266373_816697849890631_7686188041387389215_n.jpg?stp=dst-jpg_s640x640&_nc_cat=101&ccb=1-7&_nc_sid=9267fe&_nc_eui2=AeE3FD4Eh8CYXoIMx8xxdnkrebRV8NejyWx5tFXw16PJbE0fpk7mfxkpKe0lc67hjFCO8IRGxn0xhs_UVstb_bLN&_nc_ohc=q_Q7hgUv8aoAX9FvDll&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&oh=00_AfCZgz3WAmRmIDr3wcME7Kng_8lwBgvn2LVNi1kAnnXOiQ&oe=647E1172"/>
+      <img src={talkPic2}/>
         <div class="dots">
           <div class="dot1"></div>
           <div class="dot2"></div>
@@ -163,7 +170,7 @@ const ClosesellerTv = () => {
   <label for="s3" id="slide3">
     <div class="card">
       <div class="image">
-        <img src="https://scontent.fabb1-2.fna.fbcdn.net/v/t39.30808-6/350344087_176731325055333_2276892590452765154_n.jpg?stp=dst-jpg_s640x640&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEW43_Qvb4tF3livhn10nDzCvjkoRlvn6QK-OShGW-fpNDl3kNHxh2JCb96avBd1yExjcyBdjXCQjMgHXZn84cW&_nc_ohc=508hAB6GywIAX-6rkF1&_nc_zt=23&_nc_ht=scontent.fabb1-2.fna&oh=00_AfAA8cGVmxDZNE4cddOb1q5SXaSgJPFqlkw8k0jDiqTk0A&oe=647DCAED"/>
+      <img src={talkPic3}/>
         <div class="dots">
           <div class="dot1"></div>
           <div class="dot2"></div>
@@ -177,7 +184,7 @@ const ClosesellerTv = () => {
   <label for="s4" id="slide4">
     <div class="card">
       <div class="image">
-        <img src="https://scontent.fabb1-2.fna.fbcdn.net/v/t39.30808-6/350786270_1009822120192129_2678633398341624595_n.jpg?stp=dst-jpg_p180x540&_nc_cat=1&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFNlkDf4l7r_gnjRtE2j0A_8fB1J-VsSMLx8HUn5WxIwq5dNQnXq-nn5kBvLNyVZBvRY9p1CM0CYDPgsaO8Ou47&_nc_ohc=ZIOewuRRBYAAX8lvQbP&_nc_zt=23&_nc_ht=scontent.fabb1-2.fna&oh=00_AfD1wx3NA93lUH5uiWsmH5isNE73CHXxX9A_-z-6dAYe-g&oe=647F1539" />
+      <img src={talkPic4}/>
         <div class="dots">
           <div class="dot1"></div>
           <div class="dot2"></div>
@@ -191,7 +198,7 @@ const ClosesellerTv = () => {
   <label for="s5" id="slide5">
     <div class="card">
       <div class="image">
-      <img src="https://scontent.fabb1-1.fna.fbcdn.net/v/t39.30808-6/350810016_1205123203533786_4864193887414631307_n.jpg?stp=dst-jpg_s640x640&_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGTMEG6cvHVWHaryb-64SmueGLdjok0AlZ4Yt2OiTQCVqeEwtPndGpAdqgX9Qj6YsRDiSd-YbzHWeyNsSaOx2iu&_nc_ohc=Z3997N7ChBUAX_36X4b&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&oh=00_AfDc3KvTbofm87bQDDAotxPzq-61JdtEReniGOWv9P6MKA&oe=647E8C1A" />
+      <img src={talkPic5}/>
         <div class="dots">
           <div class="dot1"></div>
           <div class="dot2"></div>
@@ -250,7 +257,7 @@ const ClosesellerTv = () => {
               </p>
              
                 <div className="red-text">
-                 <div>
+                 <div className='red-padd'>
                  <p>
                   Our red carpet events will leave your guest, including top-dignitaries , industry influencers, and celebrities amazed. Attendees will have the opportunity to network with fellow, industry professionals, and potential business partners.
                   </p>
@@ -349,14 +356,14 @@ const ClosesellerTv = () => {
 
             <div className="training-event">
                 <h2  data-aos="fade-down">Training Events</h2>
-                <p  data-aos="fade-up" data-aos-duration="3000">At Closeseller, we're always hosting new and exciting events and programs. Whether it's a training seminar, a workshop, or a networking event, we've got something for everyone. And if you're unable to attend one of our events, you can always check out our website to see photos and highlights from past events.</p>
+                <p  data-aos="fade-up" >At Closeseller, we're always hosting new and exciting events and programs. Whether it's a training seminar, a workshop, or a networking event, we've got something for everyone. And if you're unable to attend one of our events, you can always check out our website to see photos and highlights from past events.</p>
                 <div className="traing-flex">
                     <div className="pic-1">
-                        <img src={pastevent} alt=""  data-aos="zoom-in" data-aos-duration="3000" />
+                        <img src={pastevent} alt=""  />
                     </div>
                     <div className="pic-2">
-                        <img src={event2} alt=""  data-aos="zoom-in" data-aos-duration="3000" />
-                        <img src={event3} alt=""  data-aos="zoom-in" data-aos-duration="3000" />
+                        <img src={event2} alt=""  />
+                        <img src={event3} alt=""  />
                     </div>
                 </div>
             </div>
@@ -367,8 +374,8 @@ const ClosesellerTv = () => {
                     <div className="event-area">
                         <img src={upcomingEvent} alt="" data-aos="zoom-out-down" />
                     </div>
-                    <h3 data-aos="flip-up">Upcoming Events</h3>
-                    <a href=""data-aos="flip-up" >Click to register <img src={arrow} alt="" /></a>
+                    <h3>Upcoming Events</h3>
+                    <a href="">Click to register <img src={arrow} alt="" /></a>
                 </div>
             </div>
         </section>

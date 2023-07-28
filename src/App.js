@@ -13,6 +13,7 @@ import Upbar from './pages/Upbar';
 import WebServices from './pages/WebServices';
 import WhyTv from "./pages/WhyTv";
 import ReadMoreAmbPro from "./pages/ReadMoreAmbPro"
+import TakUrMind from "./pages/TalkUrMind"
 
 function App() {
   useEffect(function () {
@@ -45,6 +46,8 @@ function App() {
     <Route path="/contact" element={<Contact/>}/>
     <Route path="/whytv" element={<WhyTv/>}/>
     <Route path="/ReadMoreAmbPro" element={<ReadMoreAmbPro/>}/>
+    <Route path="/TakUrMind" element={<TakUrMind/>}/>
+    
      
     </Routes>
     </Wrapper>

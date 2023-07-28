@@ -161,6 +161,21 @@
   border-radius: 40px;
   cursor: pointer;
   }
+  .talk-box{
+    height: 150px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .talk-box h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #16061F;
+   
+    }
   .boxx:hover{
     box-shadow: 0px 10px 30px rgba(57, 56,61,0.205);
   }
@@ -909,7 +924,12 @@
                   color: #000000;
                   padding: 10px 0;
                   }
-                 
+                  .foot-1{
+                    width: 100%;
+                  }
+                  .foot-3{
+                    width: 100%;
+                  }
               
         
   }

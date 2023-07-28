@@ -169,7 +169,7 @@ At Closeseller, we see beyond the limits, as we have professionals willing to he
 
     
     <div className="learn-more">
-    <a href="">Learn more <img src={arrow} alt="" className='arrow' /></a>
+    {/* <a href="">Learn more <img src={arrow} alt="" className='arrow' /></a> */}
     </div>
   
 
