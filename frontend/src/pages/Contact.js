@@ -16,7 +16,7 @@ const Contact = () => {
     e.preventDefault();
   
     try {
-      let result = await fetch('http://localhost:5000/save', {
+      let result = await fetch('https://closeseller-api.vercel.app/save', {
         method: 'POST',
         body: JSON.stringify({ name, number, email, message, company }),
         headers: {
