@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(cors(
 	{
-		origin:["https://closesellerss-gb.vercel.app/"],
+		origin:["https://closesellerss-gb.vercel.app"],
 		methods:["POST", "GET"],
 		credentials:true
 	}
