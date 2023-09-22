@@ -15,12 +15,11 @@ app.use(express.json());
 
 app.use(cors(
 	{
-		origin:["https://closesellerss.vercel.app"],
+		origin:["https://closeseller-front.vercel.app"],
 		methods:["POST", "GET"],
 		credentials:true
 	}
 ));
-
 
 	Item.createIndexes();
 
